@@ -687,7 +687,13 @@ h3.my-profession {
     {
         margin-left: 10px;
     }
+
+    header {
+        display: none;
+        background-color: white;
+    }
     
+
     
 }
 
@@ -699,6 +705,7 @@ h3.my-profession {
         max-width: 50%; 
     }
     .about .about-content .education,
+    .about .about-content .experience,
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
@@ -706,18 +713,38 @@ h3.my-profession {
     .home-img img{
         display: none;
     }
-    .section-title,
-    .about-text,h3,p{
-        margin-left: 20px;
+    header {
+        display: none;
+        background-color: white;
     }
-    .skills .skills-item{
-        margin-left: 20px;
+
+    #home{
+        margin-left: 250px;
     }
-    .education,
-    .experience
-    {
-        margin-left: 10px;
+
+    .section-title h2{
+        margin-right: 110px;
     }
+
+    .about-content{
+        margin-left: 6px;
+    }
+    .contact-title{
+        margin-left: -10px;
+    }
+     .section-title {
+        margin-left: 19vh;
+    }
+    .contact-sub-title{
+        margin-left: 12px;
+    }
+    .contact-form{
+        margin-left: 19vh;
+        width: 10%;
+    }
+   input{
+    width: 10%;
+   }
 }
 
 @media(max-width: 767px){
@@ -731,17 +758,38 @@ h3.my-profession {
     .about .about-content  .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
+        
     }
-    .section-title,
-    .about-text,h3,p{
-        margin-left: 20px;
+    header {
+        display: none;
+        background-color: white;
     }
-    .skills .skills-item{
-        margin-left: 20px;
+
+    #home{
+        margin-left: 150px;
     }
-    .education,
-    .experience
-    {
-        margin-left: 10px;
+
+    .section-title h2{
+        margin-right: 110px;
     }
+
+    .about-content{
+        margin-left: 6px;
+    }
+    .contact-title{
+        margin-left: -10px;
+    }
+     .section-title {
+        margin-left: 19vh;
+    }
+    .contact-sub-title{
+        margin-left: 12px;
+    }
+    .contact-form{
+        margin-left: 19vh;
+        width: 10%;
+    }
+   input{
+    width: 10%;
+   }
 }
